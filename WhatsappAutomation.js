@@ -29,7 +29,7 @@ async function scrape(url){
     await page.waitFor(3500);
     // browser ko close krne ke liye!
     await browser.close();
-    console.log("Browser closed and Moderators has been added successfully");
+    console.log("Browser closed and Message has been sent successfully");
 }
 
 scrape("https://web.whatsapp.com")
